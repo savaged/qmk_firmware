@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------------------------+--------|
  * | LSHIFT | Z      | X      | C      | V      | B      | [      | MENU   | ]      | N      | M      | ,      | .      | /      | RSHIFT |
  * |--------+--------+--------+--------+--------+-----------------+--------+--------+--------+--------+-----------------+--------+--------|
- * | LCTRL  | PG UP  | PG DN  | BACKSP | FN     | TAB    | LGUI   | SPACE  | LGUI   | SPACE  | FN     | ENTER  | HOME   | END    | RCTRL  |
+ * | LCTRL  | PG UP  | PG DN  | BACKSP | FN     | TAB    | LGUI   | SPACE  | LGUI   | SPACE  | FN     | ENTER  | END    | HOME   | RCTRL  |
  * '--------------------------------------------------------------------------------------------------------------------------------------'
  */
 
@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_BSLS, KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_INS,  KC_DEL,  KC_MAIL, KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_EQL,
     KC_GRV,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_LALT, KC_CAPS, KC_RALT, KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_LBRC, KC_APP,  KC_RBRC, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
-    KC_LCTL, KC_PGUP, KC_PGDN, KC_BSPC, MO(_FN), KC_TAB,  KC_LGUI, KC_SPC,  KC_LGUI, KC_SPC,  MO(_FN), KC_ENT,  KC_HOME, KC_END,  KC_RCTL
+    KC_LCTL, KC_PGUP, KC_PGDN, KC_BSPC, MO(_FN), KC_TAB,  KC_LGUI, KC_SPC,  KC_LGUI, KC_SPC,  MO(_FN), KC_ENT,  KC_END,  KC_HOME, KC_RCTL
  ),
 
 /* FUNCTION
